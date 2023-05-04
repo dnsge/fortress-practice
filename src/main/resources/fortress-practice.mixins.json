@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "org.dnsge.fortprac.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "CommandManagerMixin",
+    "CreateWorldScreenMixin",
+    "OptionsScreenMixin",
+    "TitleScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": []
+}
