@@ -23,7 +23,6 @@ import java.io.IOException;
  */
 @Mixin(CreateWorldScreen.class)
 public abstract class CreateWorldScreenMixin extends Screen {
-
     @Shadow
     private TextFieldWidget levelNameField;
 
@@ -58,5 +57,4 @@ public abstract class CreateWorldScreenMixin extends Screen {
         // Force world generation immediately
         createLevel();
     }
-
 }

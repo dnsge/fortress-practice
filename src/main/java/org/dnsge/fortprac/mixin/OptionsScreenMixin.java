@@ -40,5 +40,4 @@ public abstract class OptionsScreenMixin extends Screen {
         this.client.disconnect(new SaveLevelScreen(new TranslatableText("menu.savingLevel")));
         this.client.openScreen(new TitleScreen());
     }
-
 }

@@ -77,5 +77,4 @@ public abstract class TitleScreenMixin extends Screen {
             drawCenteredString(matrices, client.textRenderer, "Practice Nether Fortresses", center.x(), center.y() - rect.height - 10, 0xFFFFFF);
         }
     }
-
 }

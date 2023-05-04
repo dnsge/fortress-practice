@@ -20,7 +20,6 @@ import static net.minecraft.server.command.CommandManager.literal;
 public class FortressCommand implements CommandRegister {
 
     @Override
-
     public void register(CommandDispatcher<ServerCommandSource> dispatcher) {
         dispatcher.register(literal("fortress").executes(c -> {
             this.execute(c);

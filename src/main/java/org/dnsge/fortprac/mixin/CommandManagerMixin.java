@@ -28,5 +28,4 @@ public abstract class CommandManagerMixin {
             cmd.register(dispatcher);
         }
     }
-
 }
