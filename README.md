@@ -8,7 +8,7 @@ This mod assists with practicing Nether Fortress splits and endgame splits. It l
 ## Installation
 
 1. If using MultiMC or some similar tool, make a copy of your desired instance
-2. Download the Assets.zip file from the latest release on GitHub
+2. Download the `fortress-practice.zip` file from the latest release on GitHub
 3. Extract the zip file and copy the mod `.jar` file to your mods folder (not the sources)
 4. Delete Atum if installed, as this mod is incompatible with it
 
