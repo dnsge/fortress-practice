@@ -4,7 +4,7 @@
 # against bad commits.
 
 name: build
-on: [pull_request, push]
+on: [ pull_request, push ]
 
 jobs:
   build:
@@ -15,7 +15,7 @@ jobs:
           17,    # Current Java LTS & minimum supported by Minecraft
         ]
         # and run on both Linux and Windows
-        os: [ubuntu-22.04, windows-2022]
+        os: [ ubuntu-22.04, windows-2022 ]
     runs-on: ${{ matrix.os }}
     steps:
       - name: checkout repository
@@ -36,5 +36,5 @@ jobs:
         if: ${{ runner.os == 'Linux' && matrix.java == '17' }} # Only upload artifacts built from latest java on one OS
         uses: actions/upload-artifact@v3
         with:
-          name: Artifacts
-          path: build/libs/
+          name: fortress-practice
+          path: build/libs/*.jar
